@@ -1,0 +1,13 @@
+{
+    "applicationConfiguration": [
+        {
+            "classification": "hive-site",
+            "configurations": [],
+            "properties": {
+                "hive.exec.scratchdir": "s3://johnny-chivers-emr/hive/scratch",
+                "hive.metastore.warehouse.dir": "s3://johnny-chivers-emr/hive/warehouse"
+            }
+        }
+    ],
+    "monitoringConfiguration": {}
+}
