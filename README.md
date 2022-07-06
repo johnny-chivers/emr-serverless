@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [Set Up Work](#set-up)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
@@ -12,13 +12,20 @@
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## Set up
 
-Some text
+1. Create EMR Notebook Role
+- Open IAM and create the IAM role for the EMR notebook using FILE
+- Attach AmazonElasticMapReduceEditorsRole policy
+- Attached AmazonS3FullAccess policy 
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+2. Create EMR Servlerless Execution Role
+- Open IAM and create the IAM role for the EMR Servlerless Execution using FILE
+- Attach FILE policy for permisions
+
+3. Create S3 bucket
+- 
+
 
 ## Status
 
