@@ -41,8 +41,9 @@ folder1/
 - create S3 bucket to use for the demo 
 
 4. Create Folder To use in S3 Bucket 
-- `scripts` folder
-- `data`
+- Create a `scripts` folder
+- Create a `data` folder
+- Create a `query-results` folder
 
 
 ## Main Tutorial
