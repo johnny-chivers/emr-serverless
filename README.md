@@ -42,11 +42,20 @@ folder1/
 
 4. Create Folder To use in S3 Bucket 
 - Create a `scripts` folder
-- Create a `data` folder
+- Create a `customers` folder (We use this to upload a CSV to)
 - Create a `query-results` folder
 
 
 ## Main Tutorial
+
+1. Naviagte to EMR home from the AWS Console and select EMR Studio from the left handside. 
+2. Select `Get Started` 
+3. Select `Create Studio`
+4. Insert Studio name
+5. Under `Networking and Security` select your default VPC and 3 public subnets. 
+6. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
+7. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
+
 
 ## Creators
 
