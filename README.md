@@ -55,6 +55,8 @@ folder1/
 5. Under `Networking and Security` select your default VPC and 3 public subnets. 
 6. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
 7. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
+8. Select the `Studio access URL`
+9. 
 
 
 ## Creators
