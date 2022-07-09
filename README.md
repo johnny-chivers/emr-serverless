@@ -1,4 +1,4 @@
-# EMR Serverless Resources
+# EMR Serverless
 
 ## Table of contents
 
