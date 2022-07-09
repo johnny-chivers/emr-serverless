@@ -2,15 +2,28 @@
 
 ## Table of contents
 
-- [Set Up Work](#set-up)
-- [Status](#status)
 - [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
+- [Set Up Work](#set-up)
+- [Main Tutorial](#main-tutorial)
+- [Useful Links](#useful-links)
 - [Creators](#creators)
 - [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
 
+## What's included
+
+The repo is to supplement the youtube video (link) on emr severless. 
+The contents of the repo are denoted below. 
+
+```text
+folder1/
+└── folder2/
+    ├── folder3/
+    │   ├── file1
+    │   └── file2
+    └── folder4/
+        ├── file3
+        └── file4
+```
 
 ## Set up
 
@@ -24,52 +37,27 @@
 - Attach FILE policy for permisions
 
 3. Create S3 bucket
-- 
+- Open S3 console 
+- create S3 bucket to use for the demo 
+
+4. Create Folder To use in S3 Bucket 
+- `scripts` folder
+- `data`
 
 
-## Status
-
-Here goes all the budgets
-
-## What's included
-
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
-
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
-
-## Contributing
-
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+## Main Tutorial
 
 ## Creators
 
-**Creator 1**
+**Johnny Chivers**
 
-- <https://github.com/usernamecreator1>
+- <https://github.com/johnny-chivers/>
 
-## Thanks
+## Useful Links
 
-Some Text
+- youtube video (link)
+- website 
+- buy me a coffee
 
-## Copyright and license
-
-Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
 
 Enjoy :metal:
