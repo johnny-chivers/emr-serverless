@@ -14,7 +14,7 @@
             ]
         },
         {
-            "Sid": "FullAccessToS3Bucket",
+            "Sid": "FullAccessToOutputBucket",
             "Effect": "Allow",
             "Action": [
                 "s3:PutObject",
@@ -23,8 +23,8 @@
                 "s3:DeleteObject"
             ],
             "Resource": [
-                "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
-                "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*"
+                "arn:aws:s3:::*",
+                "arn:aws:s3:::*/*"
             ]
         },
         {
@@ -45,7 +45,9 @@
                 "glue:BatchCreatePartition",
                 "glue:GetUserDefinedFunctions"
             ],
-            "Resource": ["*"]
+            "Resource": [
+                "*"
+            ]
         }
     ]
 }
