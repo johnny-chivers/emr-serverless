@@ -56,7 +56,14 @@ folder1/
 6. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
 7. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
 8. Select the `Studio access URL`
-9. 
+9. Select `applications` under `serverless` from the left handside menu
+10 Select `create application` from the top right
+11. Enter a name for the application. Leave the type as `Spark` and click `create application`
+12. Click into the application via the `name`
+13. Click `submit job`
+14. Name job and select the service role created in the set up steps. 
+15. Click `Submit Job`
+16. job status will go from pending -> running -> success. 
 
 
 ## Creators
