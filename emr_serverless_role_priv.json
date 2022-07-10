@@ -1,10 +1,12 @@
 {
-     "Effect": "Allow",
-     "Action": "iam:PassRole",
-     "Resource": "arn:aws:iam::1234567890:role/JobRuntimeRoleForEMRServerless",
-        "Condition": {
-                "StringLike": {
-                    "iam:PassedToService": "emr-serverless.amazonaws.com"
-                }
-            }
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "emr-serverless.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
 }
