@@ -31,6 +31,7 @@ The repo is to supplement the youtube video (link) on emr severless.
 - Create a `scripts` folder
 - Create a `customers` folder (We use this to upload a CSV to)
 - Create a `query-results` folder
+- Upload files to folders
 
 
 ## Main Tutorial
