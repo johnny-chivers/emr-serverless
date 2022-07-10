@@ -23,7 +23,7 @@ CREATE EXTERNAL TABLE emrdb.customer
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION 's3://johnny-chivers-emr/customers/'
+LOCATION 's3://<s3-bucket-name>/customers/'
 TBLPROPERTIES ('skip.header.line.count'='1')
 ;
 
