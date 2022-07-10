@@ -49,23 +49,37 @@ folder1/
 ## Main Tutorial
 
 **Hive**
-1. Naviagte to EMR home from the AWS Console and select EMR Studio from the left handside. 
-2. ![plot](./resources/hive/1. emr-service-home.png)
-3. Select `Get Started` 
-4. Select `Create Studio`
-5. Insert Studio name
-6. Under `Networking and Security` select your default VPC and 3 public subnets. 
-7. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
-8. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
-9. Select the `Studio access URL`
-10. Select `applications` under `serverless` from the left handside menu
-10 Select `create application` from the top right
-11. Enter a name for the application. Leave the type as `Spark` and click `create application`
-12. Click into the application via the `name`
-13. Click `submit job`
-14. Name job and select the service role created in the set up steps. 
-15. Click `Submit Job`
-16. job status will go from pending -> running -> success. 
+1. Naviagte to EMR home from the AWS Console and select EMR Studio from the left handside. ![](images/hive/1._emr-service-home.png)
+
+2. Select `Get Started` ![](images/hive/2._emr-studio-get-started.png)
+
+3. Select `Create Studio` ![](images/hive/3._create-studio.png)
+
+4. Insert Studio name ![](images/hive/4._name-studio.png)
+
+5. Under `Networking and Security` select your default VPC and 3 public subnets. ![](images/hive/5._networking-security.png)
+
+6. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage ![](images/hive/6._emr-service-role.png)
+
+7. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) ![](images/hive/7._select-s3-bucket.png)
+
+8. Select the `Studio access URL` ![](images/hive/8._select-the-studio-access-url.png)
+
+9. Select `applications` under `serverless` from the left handside menu ![](images/hive/9._select-applications.png)
+
+10 Select `create application` from the top right ![](images/hive/10._create-application.png)
+
+11. Enter a name for the application. Leave the type as `Spark` and click `create application` ![](images/hive/11._name-spark-app.png)
+
+12. Click into the application via the `name` ![](images/hive/12._click-into-application.png)
+
+13. Click `submit job` ![](images/hive/13._click-submit-job.png)
+
+14. Name job and select the service role created in the set up steps. ![](images/hive/14._name-job.png)
+
+15. Click `Submit Job` ![](images/hive/15._submit-job.png)
+
+16. job status will go from pending -> running -> success. ![](images/hive/16._job-status.png)
 
 
 ## Creators
@@ -82,7 +96,3 @@ folder1/
 
 
 Enjoy :metal:
-
-[[/resources/hive/1.%20emr-service-home.png|ALT TEXT]]
-
-[[images/hive/1._emr-service-home.png]]
