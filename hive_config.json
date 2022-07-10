@@ -4,8 +4,8 @@
             "classification": "hive-site",
             "configurations": [],
             "properties": {
-                "hive.exec.scratchdir": "s3://johnny-chivers-emr/hive/scratch",
-                "hive.metastore.warehouse.dir": "s3://johnny-chivers-emr/hive/warehouse"
+                "hive.exec.scratchdir": "s3://<s3-bucket-name>/hive/scratch",
+                "hive.metastore.warehouse.dir": "s3://<s3-bucket-name>/hive/warehouse"
             }
         }
     ],
