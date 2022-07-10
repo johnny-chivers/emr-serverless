@@ -83,6 +83,27 @@ folder1/
 
 16. job status will go from pending -> running -> success. ![](images/spark/16._job-status.png)
 
+**Hive App Setup**
+
+17. Create Application from applications
+
+18. Name and select Hive application
+
+19. Open hive application
+
+20. Submit the job 
+
+21. Name the hive job, select hive script (change bucket name in script),and select service role. 
+
+22. Copy and paste Hive config (change bucket name in json). 
+
+23. Submit Job and monintor. Job status will go from pending -> running -> success.
+
+24. Navigate to Glue databases and click emrdb
+
+25. Look at table created 
+
+26. Bonus - select data using athena and the created table. 
 
 ## Creators
 
