@@ -101,7 +101,7 @@ The repo is to supplement the youtube video (link) on emr severless.
 ## Useful Links
 
 - youtube video (link)
-- [website](www.johnnychivers.co.uk)
+- [website](https://www.johnnychivers.co.uk)
 - [buy me a coffee](https://www.buymeacoffee.com/johnnychivers)
 
 
