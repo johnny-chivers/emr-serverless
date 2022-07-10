@@ -48,15 +48,17 @@ folder1/
 
 ## Main Tutorial
 
+**Hive**
 1. Naviagte to EMR home from the AWS Console and select EMR Studio from the left handside. 
-2. Select `Get Started` 
-3. Select `Create Studio`
-4. Insert Studio name
-5. Under `Networking and Security` select your default VPC and 3 public subnets. 
-6. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
-7. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
-8. Select the `Studio access URL`
-9. Select `applications` under `serverless` from the left handside menu
+2. ![plot](./resources/hive/1. emr-service-home.png)
+3. Select `Get Started` 
+4. Select `Create Studio`
+5. Insert Studio name
+6. Under `Networking and Security` select your default VPC and 3 public subnets. 
+7. Select the EMR Studio role `emr-notebook-role-tutorial` created duing the [Set Up Work](#set-up) stage
+8. Select the S3 bucket created duing the [Set Up Work](#set-up) stage. (This will be your own customer bucket name) 
+9. Select the `Studio access URL`
+10. Select `applications` under `serverless` from the left handside menu
 10 Select `create application` from the top right
 11. Enter a name for the application. Leave the type as `Spark` and click `create application`
 12. Click into the application via the `name`
@@ -80,3 +82,7 @@ folder1/
 
 
 Enjoy :metal:
+
+[[/resources/hive/1. emr-service-home.png|ALT TEXT]]
+
+[[resources/hive/1. emr-service-home.png]]
