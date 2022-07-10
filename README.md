@@ -7,34 +7,21 @@
 - [Main Tutorial](#main-tutorial)
 - [Useful Links](#useful-links)
 - [Creators](#creators)
-- [Thanks](#thanks)
 
 ## What's included
 
-The repo is to supplement the youtube video (link) on emr severless. 
-The contents of the repo are denoted below. 
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
+The repo is to supplement the youtube video (link) on emr severless.
 
 ## Set up
 
 1. Create EMR Notebook Role
-- Open IAM and create the IAM role for the EMR notebook using FILE
+- Open IAM and create the IAM role for the EMR notebook using the [emr notebook role json](emr_notebook_rol_priv.json)
 - Attach AmazonElasticMapReduceEditorsRole policy
 - Attached AmazonS3FullAccess policy 
 
 2. Create EMR Servlerless Execution Role
-- Open IAM and create the IAM role for the EMR Servlerless Execution using FILE
-- Attach FILE policy for permisions
+- Open IAM and create the IAM role for the EMR Servlerless Execution using [emr serverless role](emr_serverless_role_priv.json)
+- Attach [policy for permisions](emr_serverless_policy.json)
 
 3. Create S3 bucket
 - Open S3 console 
@@ -85,25 +72,25 @@ folder1/
 
 **Hive App Setup**
 
-17. Create Application from applications
+17. Create Application from applications ![](images/hive/17._create_hive_app.png)
 
-18. Name and select Hive application
+18. Name and select Hive application ![](images/hive/18._name_hive_app.png)
 
-19. Open hive application
+19. Open hive application ![](images/hive/19._open-hive-emr-tutorial.png)
 
-20. Submit the job 
+20. Submit the job ![](images/hive/20._submit-job.png)
 
-21. Name the hive job, select hive script (change bucket name in script),and select service role. 
+21. Name the hive job, select hive script (change bucket name in script),and select service role. ![](images/hive/21._name_hive_job.png)
 
-22. Copy and paste Hive config (change bucket name in json). 
+22. Copy and paste Hive config (change bucket name in json). ![](images/hive/22._hive_job_config.png)
 
-23. Submit Job and monintor. Job status will go from pending -> running -> success.
+23. Submit Job and monintor. Job status will go from pending -> running -> success. ![](images/hive/23._job_mon.png)
 
-24. Navigate to Glue databases and click emrdb
+24. Navigate to Glue databases and click emrdb ![](images/hive/24._glue.png)
 
-25. Look at table created 
+25. Look at table created ![](images/hive/25._glue_table.png)
 
-26. Bonus - select data using athena and the created table. 
+26. Bonus - select data using athena and the created table. ![](images/hive/26._athena.png)
 
 ## Creators
 
@@ -114,8 +101,8 @@ folder1/
 ## Useful Links
 
 - youtube video (link)
-- website 
-- buy me a coffee
+- [website](www.johnnychivers.co.uk)
+- [buy me a coffee](https://www.buymeacoffee.com/johnnychivers)
 
 
 Enjoy :metal:
