@@ -85,4 +85,4 @@ Enjoy :metal:
 
 [[/resources/hive/1.%20emr-service-home.png|ALT TEXT]]
 
-[[images/hive/1. emr-service-home.png]]
+[[images/hive/1._emr-service-home.png]]
