@@ -10,7 +10,7 @@
 
 ## What's included
 
-The repo is to supplement the youtube video (link) on emr severless.
+The repo is to supplement the [youtube video](https://youtu.be/grfSNj2EMwo)  on emr severless.
 
 ## Set up
 
@@ -101,7 +101,7 @@ The repo is to supplement the youtube video (link) on emr severless.
 
 ## Useful Links
 
-- youtube video (link)
+- [youtube video](https://youtu.be/grfSNj2EMwo) 
 - [website](https://www.johnnychivers.co.uk)
 - [buy me a coffee](https://www.buymeacoffee.com/johnnychivers)
 
